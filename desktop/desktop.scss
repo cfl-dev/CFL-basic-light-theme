@@ -1,0 +1,52 @@
+// * desktop view *
+
+.d-header {
+  height: 64px;
+  box-shadow: 0px 7px 7px rgba(#888888, 0.80);
+  .panel {
+    padding: 0 0 0 0;
+    flex: 0 0 auto;
+  }
+  button {
+    &.login-button,
+    &.sign-up-button {
+      font-size: 1em;
+    }
+  }
+  .icons .icon {
+    @media screen and (min-width: 875px) {
+      margin-left: 4px;
+      margin-right: 4px;
+    }
+    border-radius: 12px;
+    padding: 4px;
+  }
+    .d-header-icons .d-icon {
+    font-size: 1.9em;
+    border-radius: 12px;
+  }
+  .icons {
+    .unread-private-messages,
+    .badge-notification,
+    .unread-notifications {
+      padding: 4px 6px;
+      top: 0;
+      background: var(--tertiary);
+    }
+  }
+  .icons .flagged-posts {
+    right: 85px;
+  }
+    #site-logo {
+    max-height: 42px !important;
+  }
+}
+
+.header-sidebar-toggle button {
+    border-radius: 12px;
+    padding: 4px;
+}
+
+.sidebar-wrapper {
+    background-color: rgba(#e9e9e9, 0.26);
+}
