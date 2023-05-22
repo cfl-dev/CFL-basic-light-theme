@@ -3,9 +3,9 @@
   "component": false,
   "license_url": null,
   "about_url": null,
-  "authors": @Lillinator,
+  "authors": null,
   "theme_version": 1.2,
-  "minimum_discourse_version": Discourse 3.1.0.beta4,
+  "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
     "grey-cup": "assets/grey-cup.jpg",
