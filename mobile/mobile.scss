@@ -1,5 +1,32 @@
-//make usernames bigger in mobile view
+
+//  * make usernames bigger in mobile view *
 
 .names span a {
     font-size: 17px;
+}
+
+// * header *
+.d-header {
+  .contents {
+    margin: 0px 0;
+  }
+  .login-button,
+  .d-header button.sign-up-button {
+    margin: 0 5px 0;
+  }
+  #site-logo {
+    max-height: 50px;
+  }
+
+  .d-header-icons .d-icon {
+    font-size: 2em;
+  }
+      .icons .icon {
+    @media screen and (min-width: 875px) {
+      margin-left: 10px;
+    }
+    border-radius: 4px;
+    padding: 6px;
+  }
+ 
 }
