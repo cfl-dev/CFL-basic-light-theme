@@ -47,6 +47,13 @@
     padding: 4px;
 }
 
+body.has-sidebar-page #main-outlet-wrapper {
+    gap: 0 0.6em;
+}
+
 .sidebar-wrapper {
     background-color: rgba(#e9e9e9, 0.26);
+    margin: 0px 0px 0px -2px;
+    border-radius: 0px;
+    padding-right: 0px;
 }
