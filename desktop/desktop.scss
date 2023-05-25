@@ -57,3 +57,13 @@ body.has-sidebar-page #main-outlet-wrapper {
     border-radius: 0px;
     padding-right: 0px;
 }
+
+.sidebar-wrapper .sidebar-sections {
+    padding: 0.5em 0em 0em 0em;
+
+}
+
+:root {
+    //--d-sidebar-row-horizontal-padding: 1.25rem;
+    --d-sidebar-row-height: 2.05em;
+}
