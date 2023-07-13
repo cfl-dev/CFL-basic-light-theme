@@ -137,11 +137,11 @@ span.username a[data-user-card="GridironGirl"] {
 
 // * body contents
 
-//@import url("https://fonts.googleapis.com/css?family=Noto+Sans:100,400,600");
-//body {
-//    font-family: 'Noto Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:100,400,600");
+body {
+    font-family: 'Noto Sans', sans-serif;
     //font-size: 16px;
-//}
+}
 
 .wrap {
     max-width: var(--d-max-width);
